@@ -15,11 +15,11 @@ int main()
 
 	setlocale(LC_ALL, "Rus");
 
-	cout << "Ââåäèòå âûðàæåíèå: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ: ";
 
 	n = expr();
 
-	cout << "Ðåçóëüòàò âû÷èñëåíèÿ: " << setprecision(8) << n << endl;
+	cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: " << setprecision(8) << n << endl;
 
 	cin.get();
 	return 0;
@@ -107,7 +107,7 @@ double factor()
 
 			if (temp == 0.0)
 			{
-				cout << "Äåëåíèå íà íóëü!" << endl;
+				cout << "Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð½Ð¾Ð»ÑŒ!" << endl;
 				exit(-1);
 			}
 
@@ -175,7 +175,7 @@ double brackets()
 
 		if (c != ')')
 		{
-			std::cout << "Íåâåðíàÿ ðàññòàíîâêà ñêîáîê!" << std::endl;
+			cout << "ÐÐµÐ²ÐµÑ€Ð½Ð°Ñ Ñ€Ð°ÑÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ° ÑÐºÐ¾Ð±Ð¾Ðº!" << endl;
 			exit(-1);
 		}
 
